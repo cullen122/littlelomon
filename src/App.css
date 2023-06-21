@@ -1,38 +1,135 @@
-.App {
+#root{
+  max-width: 1000px;
+  margin:auto;
+}
+
+.sep{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+#root h2{
+  color:#f4ce14;
+}
+
+/* header style */
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+nav ul{
+  flex-grow: 1;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav ul li{
+  margin-right: 5%;
+  padding-top: 1.5%;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+/* header style */
+
+/* calltoaction style */
+
+.ctaContainer{
+  background-color: #495e57;
+  padding: 5%;
+  color:white;
+}
+
+/* calltoaction style */
+
+/* specialhighlight sh style */
+
+.shct1{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.shct1 button{
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+}
+
+.card{
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+  border-radius: 3%;
+}
+
+/* specialhighlight sh style */
+
+
+/* testimonials style */
+
+.testiCt{
+  background-color: #495e57;
+  padding:5%;
+}
+
+.testiCt h2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.testiInnerCt{
+  background-color: white;
+  text-align: center;
+  margin:3%;
+  padding: 3%;
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.testiInnerCt img{
+  width: 150px;
+  margin-bottom: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.testiCtProPic{
+  border-radius:50%;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
 }
 
-.App-link {
-  color: #61dafb;
+/* testimonials style */
+
+
+
+/* chicago style */
+
+.chiCt{
+  padding:5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* chicago style */
+
+
+/* footer style */
+
+footer{
+  border-top: 2px solid #495e57;
+  padding: 5%;
 }
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+footer li{
+  list-style-type: none;
+}
+
+/* footer style */
+
