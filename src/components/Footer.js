@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Footer(){
     return(
         <footer className="sep">
@@ -9,11 +11,11 @@ export default function Footer(){
             <div>
                 <h3>Navigation</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Reservations</a></li>
-                    <li><a href="#">Order Online</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">About</Link></li>
+                    <li><Link to="/">Menu</Link></li>
+                    <li><Link to="/booking">Reservations</Link></li>
+                    <li><Link to="/">Order Online</Link></li>
                 </ul>
             </div>
 
@@ -21,9 +23,9 @@ export default function Footer(){
             <div>
                 <h3>Contact</h3>
                 <ul>
-                    <li><a href="#">Phone Number</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Address</a></li>
+                    <li><Link to="/">Phone Number</Link></li>
+                    <li><Link to="/">Email</Link></li>
+                    <li><Link to="/">Address</Link></li>
                 </ul>
             </div>
 
@@ -31,9 +33,9 @@ export default function Footer(){
             <div>
                 <h3>Social Media</h3>
                 <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Pinterest</a></li>
+                    <li><Link to="/">Instagram</Link></li>
+                    <li><Link to="/">LinkedIn</Link></li>
+                    <li><Link to="/">Pinterest</Link></li>
                 </ul>
             </div>
         </footer>

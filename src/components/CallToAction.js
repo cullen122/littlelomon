@@ -10,12 +10,12 @@ export default function CallToAction(){
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <Link to="/booking" type="button" class="btn btn-warning">
+          <Link to="/booking" className="btn btn-warning">
             Reserve a Table
           </Link>
         </div>
         <div>
-          <img width="300px" src="https://littlelemonrestaurantankitamwebsiteproject.netlify.app/static/media/restaurantFood.088c3dd386b046ca6ce7.jpg" />
+          <img width="300px" src="https://littlelemonrestaurantankitamwebsiteproject.netlify.app/static/media/restaurantFood.088c3dd386b046ca6ce7.jpg" alt="reserveTable" />
         </div>
       </div>
     );

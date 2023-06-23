@@ -3,28 +3,28 @@ import {Link} from "react-router-dom";
 export default function Nav(){
     return (
       <nav>
-        <a href="#">
+        <Link to="/">
           <img
             src="https://littlelemonrestaurantankitamwebsiteproject.netlify.app/static/media/Logo.370f832fad423c516d56.png"
             width="200px"
             alt="..."
           ></img>
-        </a>
-        <ul class="blockquote">
+        </Link>
+        <ul className="blockquote">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/">About</Link>
           </li>
           <li>
-            <a href="#">Menu</a>
+            <Link to="/">Menu</Link>
           </li>
           <li>
-            <a href="#">Reservation</a>
+            <Link to="/booking">Reservation</Link>
           </li>
           <li>
-            <a href="#">Order Online</a>
+            <Link to="/">Order Online</Link>
           </li>
         </ul>
       </nav>

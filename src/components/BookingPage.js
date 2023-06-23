@@ -1,5 +1,5 @@
-export default function BookingPage(){
-    return(
-        <p>This is booking page</p>
-    );
+import BookingForm from "./BookingForm";
+
+export default function BookingPage(props){
+    return <BookingForm newAt={props.newAt} updateFunc={props.updateFunc} />;
 }

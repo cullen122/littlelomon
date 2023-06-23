@@ -13,6 +13,10 @@
   color:#f4ce14;
 }
 
+span{
+  color:red;
+}
+
 /* header style */
 
 nav{
@@ -132,4 +136,20 @@ footer li{
 }
 
 /* footer style */
+
+
+/* bookForm style */
+
+.bookForm{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #495e57;
+  margin: 5% 5%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+}
+
+/* bookForm style */
 
