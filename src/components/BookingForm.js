@@ -101,7 +101,7 @@ export default function BookingForm(props){
             <option value="Birthday">Birthday</option>
             <option value="Anniversary">Anniversary</option>
           </select>
-          <input type="submit" value="Make Your reservation" />
+          <input aria-label="submit button" type="submit" value="Make Your reservation" />
         </form>
       </div>
     );
